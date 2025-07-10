@@ -182,18 +182,7 @@ button:hover {
   background-color: #2a2a2a;
   transition: background-color 0.2s ease;
 }
-/* Título de la tabla de calificaciones */
-#tablaCalificaciones .titulo-tabla {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #ff4b4b;
-  margin-bottom: 12px;
-  border-bottom: 1px solid #ff4b4b44;
-  padding-bottom: 6px;
-  letter-spacing: 0.5px;
-  text-align: center;
-  font-style: italic;
-}
+
 /* Panel administrador */
 #panelAdmin {
   margin-top: 2rem;
