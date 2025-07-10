@@ -106,32 +106,37 @@ button:hover {
   flex: 1;
 }
 
-/* Tabla de calificaciones */
+/* Contenedor tabla estilo tarjeta */
 #tablaCalificaciones {
   overflow-x: auto;
   max-width: 100%;
-  margin-top: 20px;
-  border-radius: 12px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: 2px solid #ff4b4b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 75, 75, 0.4);
   transition: opacity 0.4s ease;
+  position: relative;
+  z-index: 2;
 }
 
+/* Tabla general */
 #tablaCalificaciones table {
   width: 100%;
   border-collapse: collapse;
   min-width: 800px;
 }
 
+/* Encabezados y celdas */
 #tablaCalificaciones table th,
 #tablaCalificaciones table td {
-  padding: 10px;
+  padding: 12px;
   text-align: center;
-  border: 1px solid #444;
+  border: 1px solid #333;
   color: #f55;
-}
-
-/* Zebra striping */
-#tablaCalificaciones table tbody tr:nth-child(even) {
-  background-color: #1e1e1e;
+  font-size: 0.9rem;
+  background-color: transparent;
 }
 
 /* Cabecera fija */
@@ -140,23 +145,42 @@ button:hover {
   position: sticky;
   top: 0;
   z-index: 2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ff4b4b;
+  border-bottom: 1px solid #ff4b4b44;
 }
 
-/* Columna "Mes" fija */
+/* Columna izquierda (mes) fija */
 #tablaCalificaciones td:first-child,
 #tablaCalificaciones th:first-child {
   position: sticky;
   left: 0;
-  background-color: #111;
+  background-color: #181818;
   z-index: 3;
   text-align: left;
   font-weight: bold;
+  color: #ff7777;
+}
+
+/* Zebra striping */
+#tablaCalificaciones table tbody tr:nth-child(even) {
+  background-color: #1f1f1f;
 }
 
 /* Fila total anual */
 .admin-total {
-  background-color: #333;
+  background-color: #262626;
   font-weight: bold;
+  color: #ff6666;
+  font-style: italic;
+  border-top: 2px solid #f004;
+}
+
+/* Efecto hover opcional para filas */
+#tablaCalificaciones table tbody tr:hover {
+  background-color: #2a2a2a;
+  transition: background-color 0.2s ease;
 }
 
 /* Panel administrador */
