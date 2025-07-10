@@ -183,7 +183,7 @@ function renderCalificaciones(mesSeleccionado) {
     <span class="icono-firma">🖊️</span>
     Firmado digitalmente por:
     <br>
-    <img src="https://bomberosc80-app.github.io/calificaciones-junio/firma.png" alt="Firma Jefe" class="imagen-firma" draggable="false">
+    <img src="https://bomberosc80-app.github.io/calificaciones-app/firma.png" alt="Firma Jefe" class="imagen-firma" draggable="false">
   </div>
 
   `;
@@ -217,7 +217,7 @@ function previsualizarCSV() {
 }
 
 function mostrarPorcentajeHT(usuarioId) {
-  fetch('https://raw.githubusercontent.com/bomberosc80-app/calificaciones-junio/main/porcentajeht.csv')
+  fetch('https://raw.githubusercontent.com/bomberosc80-app/calificaciones-app/main/porcentajeht.csv')
     .then(res => res.text())
     .then(data => {
       const lineas = data.trim().split("\n");
