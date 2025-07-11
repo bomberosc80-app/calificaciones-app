@@ -341,23 +341,5 @@ button:hover {
     margin-top: 40px;
     opacity: 0.8;
   }
-  .password-container {
-  position: relative;
-}
-
-.password-container input {
-  width: 100%;
-  padding-right: 40px;
-}
-
-.toggle-password {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  color: #f55;
-  font-size: 1.1rem;
-}
-
+ 
 }
