@@ -14,7 +14,7 @@ const usuarios = {
   "80248": { CLAVE: "DONI2025", NOMBRE: "Jonathan" },
   "80263": { CLAVE: "luis123", NOMBRE: "Luis" },
   "80229": { CLAVE: "C80229", NOMBRE: "Roberto" },
-  "80235": { CLAVE: "C80235", NOMBRE: "Alejandro" },
+  "80235": { CLAVE: "ASTOR1972", NOMBRE: "Alejandro" },
   "80226": { CLAVE: "juli226", NOMBRE: "Juliana" },
   "80227": { CLAVE: "C80227", NOMBRE: "Alejandro" },
   "80228": { CLAVE: "MV2122", NOMBRE: "Vanesa" },
