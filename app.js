@@ -273,11 +273,5 @@ document.addEventListener("DOMContentLoaded", () => {
     img.setAttribute('draggable', 'false');
     img.style.pointerEvents = 'none';
   });
-  document.getElementById("togglePassword").addEventListener("click", function () {
-  const claveInput = document.getElementById("clave");
-  const tipo = claveInput.getAttribute("type") === "password" ? "text" : "password";
-  claveInput.setAttribute("type", tipo);
-  this.textContent = tipo === "password" ? "👁️" : "🙈";
-});
 
 });
