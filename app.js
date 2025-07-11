@@ -243,7 +243,7 @@ function mostrarPorcentajeHT(usuarioId) {
       if (resultado) {
         div.innerHTML = `
           <h3 style="margin-top: 0; color: #ff4b4b;">Resumen de Asistencia a intervenciones "HT"</h3>
-          <strong>Total intervenciones emitidas:</strong> ${resultado.computables}<br>
+          <strong>Total intervenciones "HT":</strong> ${resultado.computables}<br>
           <strong>Total intervenciones concurridas:</strong> ${resultado.concurridas}<br>
           <strong>Porcentaje anual de asistencia:</strong> ${resultado.porcentaje.toFixed(1)}%
         `;
