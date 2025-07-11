@@ -19,7 +19,10 @@
     <div id="login" class="fade-in">
       <p><strong>Iniciar Sesión</strong></p>
       <input type="text" id="usuario" placeholder="Legajo" />
-      <input type="password" id="clave" placeholder="Clave" />
+      <div class="password-container">
+      <input type="password" id="clave" placeholder="Clave">
+      <span id="togglePassword" class="toggle-password">👁️</span>
+      </div>
       <button onclick="iniciarSesion()">Ingresar</button>
     </div>
 
