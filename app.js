@@ -75,7 +75,20 @@ const usuarios = {
   "80313": { CLAVE: "80313", NOMBRE: "Dana" },
   "80315": { CLAVE: "80315", NOMBRE: "Macarena" },
   "80320": { CLAVE: "80320", NOMBRE: "Elizabeth" },
-  "80333": { CLAVE: "80333", NOMBRE: "Irina" }
+  "80333": { CLAVE: "80333", NOMBRE: "Irina" },
+    "80339": { CLAVE: "80339", NOMBRE: "Leandro" },
+    "80340": { CLAVE: "80340", NOMBRE: "Juan Manuel" },
+    "80341": { CLAVE: "80341", NOMBRE: "Florencia" },
+    "80342": { CLAVE: "80342", NOMBRE: "Juan" },
+    "80343": { CLAVE: "80343", NOMBRE: "Osmar" },
+    "80344": { CLAVE: "80344", NOMBRE: "Karina" },
+    "80345": { CLAVE: "80345", NOMBRE: "Valeria" },
+    "80346": { CLAVE: "80346", NOMBRE: "Agustina" },
+    "80347": { CLAVE: "80347", NOMBRE: "Vanesa" },
+    "80348": { CLAVE: "80348", NOMBRE: "Ariel" },
+    "80349": { CLAVE: "80349", NOMBRE: "Milagros" },
+    "80350": { CLAVE: "80350", NOMBRE: "Marilu" }
+
 };
 
 let usuarioActual = null;
