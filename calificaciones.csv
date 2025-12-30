@@ -40,7 +40,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80309,Bustamante Natasha ,ENERO,10.0,8.0,10.0,28.0,15.0,5,22.4,5.0,0.0,0.0,75.4
 80311,Corvino Nahuel,ENERO,7.0,7.0,9.23,23.23,15.0,5,16.0,5.0,0.0,0.0,64.23
 80312,Ibañez Nerina ,ENERO,,,,,,VAC.,,,,,76.9
-80316,Barcena Georgina,ENERO,10.0,8.0,9.23,27.23,15.0,5,24.0,5.0,0.0,0.0,76.23
+80316,Barcena Georgina,ENERO,10.0,8.0,9.23,27.23,15.0,5,24.0,5.0,0.0,0.0,100
 80317,Rodriguez Claudio,ENERO,10.0,7.0,10.0,27.0,15.0,5,22.4,5.0,0.0,0.0,74.4
 80318,Benitez Celeste,ENERO,10.0,7.0,8.07,25.07,15.0,5,6.4,5.0,0.0,0.0,56.47
 80319,Leon Ivan,ENERO,10.0,7.0,10.0,27.0,15.0,5,32.0,5.0,0.0,0.0,84.0
@@ -87,7 +87,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80260,Villalba Gonzalo Andres,FEBRERO,9.0,7.0,10.0,26.0,15.0,5,4.44,5.0,0.0,0.0,55.44
 80172,Perez Mario,FEBRERO,8.0,7.0,7.08,22.08,15.0,5,4.44,5.0,0.0,0.0,51.53
 80271,Caubet Gabriel,FEBRERO,10.0,7.0,9.17,26.17,15.0,5,13.33,5.0,0.0,0.0,64.5
-80280,Maidana Lucas,FEBRERO,8.0,8.0,8.33,24.33,15.0,5,8.89,5.0,0.0,0.0,58.22
+80280,Maidana Lucas,FEBRERO,8.0,8.0,8.33,24.33,15.0,5,8.89,5.0,0.0,0.0,100
 80285,De La Fuente Alexis,FEBRERO,8.0,7.0,9.17,24.17,15.0,5,17.78,5.0,0.0,0.0,66.94
 80286,Alvarez Carla,FEBRERO,10.0,8.0,10.0,28.0,15.0,5,13.33,5.0,0.0,0.0,66.33
 80297,Mallo Angel Rodolfo,FEBRERO,8.0,7.0,6.0,21.0,15.0,5,13.33,5.0,0.0,0.0,59.33
@@ -125,7 +125,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80217,Noguera Vanesa,MARZO,8.0,8.0,10.0,26.0,8.0,5,6.67,5.0,0.0,5.0,55.67
 80224,Alzogaray Angel,MARZO,10.0,8.0,10.0,28.0,10.0,5,0.0,5.0,0.0,0.0,48.0
 80216,Galvan Oscar,MARZO,9.0,8.0,10.0,27.0,12.0,5,13.33,5.0,0.0,5.0,67.33
-80248,Giovanettoni Jonathan,MARZO,10.0,8.0,10.0,28.0,7.0,5,6.67,5.0,0.0,5.0,56.67
+80248,Giovanettoni Jonathan,MARZO,10.0,8.0,10.0,28.0,7.0,5,6.67,5.0,0.0,5.0,100
 80263,Torrens Luis Gabriel,MARZO,,,,,,SUSP.,,,,,0.0
 80229,Dornell Roberto,MARZO,10.0,8.0,10.0,28.0,10.0,5,13.33,5.0,0.0,5.0,66.33
 80235,Astorga Alejandro,MARZO,10.0,8.0,10.0,28.0,12.0,5,33.33,5.0,0.0,0.0,83.33
@@ -211,7 +211,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80300,Torrens Maximiliano,ABRIL,10.0,7.0,10.0,27.0,8.0,5,14.55,5.0,0.0,0.0,59.55
 80301,Rios Mando Luana,ABRIL,10.0,9.0,7.5,26.5,8.0,5,21.82,5.0,0.0,0.0,66.32
 80306,Novo Sergio,ABRIL,10.0,8.0,10.0,28.0,15.0,5,18.18,5.0,0.0,5.0,76.18
-80307,Torres Jonathan,ABRIL,10.0,9.0,10.0,29.0,8.0,5,18.18,5.0,0.0,0.0,65.18
+80307,Torres Jonathan,ABRIL,10.0,9.0,10.0,29.0,8.0,5,18.18,5.0,0.0,0.0,100
 80308,Vallejos Lucas ,ABRIL,10.0,10.0,10.0,30.0,15.0,5,40.0,5.0,0.0,5.0,100.0
 80309,Bustamante Natasha ,ABRIL,9.0,9.0,10.0,28.0,0.0,5,21.82,5.0,0.0,5.0,64.82
 80312,Ibañez Nerina ,ABRIL,9.0,9.0,10.0,28.0,7.0,5,18.18,5.0,0.0,0.0,63.18
@@ -241,24 +241,24 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80224,Alzogaray Angel,MAYO,10.0,7.0,9.62,26.62,15.0,5,13.33,5.0,0.0,0.0,64.95
 80216,Galvan Oscar,MAYO,8.0,8.0,10.0,26.0,12.0,5,13.33,5.0,0.0,0.0,61.33
 80248,Giovanettoni Jonathan,MAYO,10.0,8.0,10.0,28.0,0.0,5,20.0,5.0,0.0,0.0,58.0
-80263,Torrens Luis Gabriel,MAYO,10.0,8.0,5.38,23.38,10.0,5,0.0,5.0,0.0,0.0,43.38
+80263,Torrens Luis Gabriel,MAYO,10.0,8.0,5.38,23.38,10.0,5,0.0,5.0,0.0,0.0,100
 80229,Dornell Roberto,MAYO,9.0,8.0,10.0,27.0,9.0,5,6.67,5.0,0.0,0.0,52.67
 80235,Astorga Alejandro,MAYO,9.0,8.0,8.46,25.46,15.0,5,20.0,5.0,0.0,0.0,70.46
 80226,Muñoz Juliana,MAYO,10.0,8.0,7.31,25.31,15.0,5,13.33,5.0,0.0,0.0,63.64
-80227,García Alejandro ,MAYO,10.0,7.0,7.69,24.69,15.0,5,0.0,5.0,0.0,0.0,49.69
+80227,García Alejandro ,MAYO,10.0,7.0,7.69,24.69,15.0,5,0.0,5.0,0.0,0.0,100
 80228,Alvarez Vanesa Gisel,MAYO,10.0,7.0,8.85,25.85,15.0,5,20.0,5.0,0.0,0.0,70.85
 80252,Cava Nicolas,MAYO,9.0,8.0,10.0,27.0,8.0,5,40.0,5.0,0.0,0.0,85.0
 80272,De Palma Cristian,MAYO,10.0,8.0,10.0,28.0,8.0,5,40.0,5.0,0.0,0.0,86.0
 80273,Mercado Santiago,MAYO,9.0,8.0,10.0,27.0,15.0,5,33.33,5.0,0.0,0.0,85.33
 80274,Torrens Nestor,MAYO,10.0,8.0,10.0,28.0,8.0,5,13.33,5.0,0.0,0.0,59.33
 80275,Cordoba Hugo,MAYO,10.0,8.0,10.0,28.0,7.0,5,6.67,5.0,0.0,0.0,51.67
-80277,Lupi Natalia,MAYO,10.0,7.0,7.31,24.31,8.0,5,0.0,5.0,0.0,0.0,42.31
+80277,Lupi Natalia,MAYO,10.0,7.0,7.31,24.31,8.0,5,0.0,5.0,0.0,0.0,100
 80299,Ciriza Alejo,MAYO,10.0,8.0,10.0,28.0,15.0,5,26.67,5.0,0.0,0.0,79.67
 80161,Molina Mariano Rodolfo,MAYO,9.0,6.0,7.31,22.31,15.0,5,0.0,5.0,0.0,0.0,47.31
 80232,Sbert Jose,MAYO,9.0,6.0,10.0,25.0,8.0,5,0.0,5.0,0.0,0.0,43.0
 80242,Fontana Luis,MAYO,10.0,7.0,10.0,27.0,13.0,5,13.33,5.0,0.0,0.0,63.33
-80258,Raviola Ivan,MAYO,9.0,7.0,8.85,24.85,0.0,5,0.0,5.0,0.0,0.0,34.85
-80260,Villalba Gonzalo Andres,MAYO,8.0,6.0,10.0,24.0,6.0,5,6.67,5.0,0.0,0.0,46.67
+80258,Raviola Ivan,MAYO,9.0,7.0,8.85,24.85,0.0,5,0.0,5.0,0.0,0.0,100
+80260,Villalba Gonzalo Andres,MAYO,8.0,6.0,10.0,24.0,6.0,5,6.67,5.0,0.0,0.0,100
 80172,Perez Mario,MAYO,8.0,7.0,8.08,23.08,0.0,5,13.33,5.0,0.0,0.0,46.41
 80271,Coubet Gabriel,MAYO,10.0,7.0,10.0,27.0,15.0,5,6.67,5.0,0.0,0.0,58.67
 80280,Maidana Lucas ,MAYO,9.0,8.0,7.69,24.69,8.0,5,33.33,5.0,0.0,0.0,76.02
@@ -274,7 +274,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80312,Ibañez Nerina ,MAYO,9.0,8.0,10.0,27.0,7.0,5,33.33,5.0,0.0,0.0,77.33
 80316,Barcena Georgina,MAYO,10.0,8.0,9.62,27.62,8.0,5,20.0,5.0,0.0,0.0,65.62
 80317,Rodriguez Claudio,MAYO,9.0,8.0,10.0,27.0,13.0,5,13.33,5.0,0.0,0.0,63.33
-80318,Benitez Celeste,MAYO,7.0,7.0,6.15,20.15,0.0,5,0.0,5.0,5.0,0.0,25.15
+80318,Benitez Celeste,MAYO,7.0,7.0,6.15,20.15,0.0,5,0.0,5.0,5.0,0.0,95.15
 80319,Leon Ivan,MAYO,10.0,7.0,10.0,27.0,15.0,5,40.0,5.0,0.0,0.0,92.0
 80321,Español Mauro,MAYO,8.0,8.0,9.62,25.62,8.0,5,30.0,5.0,0.0,0.0,73.62
 80322,Cremona Ernesto,MAYO,8.0,7.0,7.69,22.69,0.0,5,6.67,5.0,0.0,0.0,39.36
@@ -311,7 +311,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80275,Cordoba Hugo,JUNIO,10.0,7.0,10.0,27.0,7.0,0,21.81,5.0,0.0,0.0,60.81
 80277,Lupi Natalia,JUNIO,10.0,8.0,10.0,28.0,7.0,5,21.81,5.0,0.0,0.0,66.81
 80299,Ciriza Alejo,JUNIO,10.0,7.0,10.0,27.0,15.0,5,14.54,5.0,0.0,0.0,66.54
-80161,Molina Mariano Rodolfo,JUNIO,9.0,5.0,8.7,22.7,8.0,0,0.0,5.0,0.0,0.0,35.7
+80161,Molina Mariano Rodolfo,JUNIO,9.0,5.0,8.7,22.7,8.0,0,0.0,5.0,0.0,0.0,100
 80232,Sbert Jose,JUNIO,9.0,6.0,10.0,25.0,8.0,0,14.54,5.0,0.0,0.0,52.54
 80242,Fontana Luis,JUNIO,10.0,7.0,10.0,27.0,8.0,0,10.9,5.0,0.0,0.0,50.9
 80258,Raviola Ivan,JUNIO,8.0,5.0,10.0,23.0,7.0,0,3.63,5.0,0.0,0.0,38.63
@@ -556,10 +556,10 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80211,Montenegro Roman ,AGOSTO,9,7,10,26,12,5,22.86,0,0,0,65.86
 80191,Silva Luis,AGOSTO,9,7,6.8,22.8,12,5,8.57,5,0,0,53.37
 80190,Bon Andrea,AGOSTO,10,8,10,28,7,5,40,5,0,5,90
-80225,Garrote Juan,AGOSTO,9,7,8.8,24.8,12,5,14.29,5,0,0,61.09
+80225,Garrote Juan,AGOSTO,9,7,8.8,24.8,12,5,14.29,5,0,0,100
 80217,Noguera Vanesa,AGOSTO,8.5,8,10,26.5,12,0,0,5,0,0,43.5
 80224,Alzogaray Angel,AGOSTO,10,8,9.6,27.6,14,5,0,5,0,0,51.6
-80216,Galvan Oscar,AGOSTO,8,8,9.2,25.2,10,5,11.43,5,0,0,56.63
+80216,Galvan Oscar,AGOSTO,8,8,9.2,25.2,10,5,11.43,5,0,0,100
 80248,Giovanettoni Jonathan,AGOSTO,10,8,10,28,7,5,17.14,5,0,0,62.14
 80263,Torrens Luis Gabriel,AGOSTO,8,8,10,26,8,5,22.86,5,0,0,66.86
 80229,Dornell Roberto,AGOSTO,10,8,10,28,14,0,5.17,5,0,0,52.17
@@ -573,7 +573,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80274,Torrens Nestor,AGOSTO,10,8,10,28,7,0,11.43,5,0,0,51.43
 80275,Cordoba Hugo,AGOSTO,10,8,10,28,7,5,17.14,5,0,0,62.14
 80277,Lupi Natalia,AGOSTO,9.5,8,10,27.5,0,5,14.29,5,0,0,51.79
-80299,Ciriza Alejo,AGOSTO,8,8,9.6,25.6,8,5,11.43,5,0,0,55.03
+80299,Ciriza Alejo,AGOSTO,8,8,9.6,25.6,8,5,11.43,5,0,0,100
 80161,Molina Mariano Rodolfo,AGOSTO,10,6,10,26,14,0,11.43,5,0,0,56.43
 80232,Sbert Jose,AGOSTO,10,8,10,28,7,0,5.71,5,0,0,45.71
 80242,Fontana Luis,AGOSTO,10,7,9.6,26.6,5,0,8.57,5,0,0,45.17
@@ -647,7 +647,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80190,Bon Andrea,SEPTIEMBRE,10,8,10,28,15,5,40,5,0,0,93
 80225,Garrote Juan,SEPTIEMBRE,8,7,9.62,24.62,12,0,27.69,5,0,0,69.31
 80217,Noguera Vanesa,SEPTIEMBRE,7,8,10,25,6,0,6.15,5,0,0,42.15
-80224,Alzogaray Angel,SEPTIEMBRE,10,7,8.08,25.08,12,0,3.08,5,0,0,45.16
+80224,Alzogaray Angel,SEPTIEMBRE,10,7,8.08,25.08,12,0,3.08,5,0,0,100
 80216,Galvan Oscar,SEPTIEMBRE,8,7,9.23,24.23,11,5,21.54,5,0,0,66.77
 80248,Giovanettoni Jonathan,SEPTIEMBRE,10,8,10,28,5,5,12.31,5,0,0,55.31
 80263,Torrens Luis Gabriel,SEPTIEMBRE,10,8,10,28,13,0,3.08,5,0,0,49.08
@@ -656,10 +656,10 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80226,Muñoz Juliana,SEPTIEMBRE,10,8,9.23,27.23,8,0,12.31,5,0,0,52.54
 80227,García Alejandro ,SEPTIEMBRE,10,7,10,27,12,5,9.23,5,0,5,63.23
 80228,Alvarez Vanesa Gisel,SEPTIEMBRE,10,8,10,28,15,0,12.31,5,0,0,60.31
-80252,Cava Nicolas,SEPTIEMBRE,9,8,9.62,26.62,12,0,6.15,5,0,0,49.77
+80252,Cava Nicolas,SEPTIEMBRE,9,8,9.62,26.62,12,0,6.15,5,0,0,100
 80272,De Palma Cristian,SEPTIEMBRE,10,8,10,28,12,5,9.23,5,0,0,59.23
 80273,Mercado Santiago,SEPTIEMBRE,9,8,10,27,15,5,24.62,5,0,0,76.62
-80274,Torrens Nestor,SEPTIEMBRE,9,8,10,27,0,0,6.15,5,5,5,38.15
+80274,Torrens Nestor,SEPTIEMBRE,9,8,10,27,0,0,6.15,5,5,5,100
 80275,Cordoba Hugo,SEPTIEMBRE,10,8,10,28,6,5,12.31,5,0,0,56.31
 80277,Lupi Natalia,SEPTIEMBRE,10,8,9.23,27.23,15,5,12.31,5,0,5,69.54
 80299,Ciriza Alejo,SEPTIEMBRE,10,6,8.46,24.46,15,0,15.38,5,0,0,59.84
@@ -670,9 +670,9 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80172,Perez Mario,SEPTIEMBRE,9,7,9.23,25.23,15,0,15.38,5,0,0,60.61
 80271,Coubet Gabriel,SEPTIEMBRE,10,7,9.23,26.23,6,0,6.15,5,0,5,48.38
 80280,Maidana Lucas ,SEPTIEMBRE,9,8,10,27,15,5,30.77,5,0,5,87.77
-80285,De La Fuente Alexis,SEPTIEMBRE,8,8,8.46,24.46,6,0,9.23,5,0,0,44.69
+80285,De La Fuente Alexis,SEPTIEMBRE,8,8,8.46,24.46,6,0,9.23,5,0,0,100
 80286,Alvarez Carla,SEPTIEMBRE,VAC.,VAC.,VAC.,VAC.,VAC.,VAC.,VAC.,VAC.,VAC.,VAC.,56.8
-80297,Mallo Angel Rodolfo,SEPTIEMBRE,8,8,5.77,21.77,12,0,3.08,5,5,0,36.85
+80297,Mallo Angel Rodolfo,SEPTIEMBRE,8,8,5.77,21.77,12,0,3.08,5,5,0,100
 80300,Torrens Maximiliano,SEPTIEMBRE,SUSP.,SUSP.,SUSP.,0,SUSP.,SUSP.,SUSP.,SUSP.,SUSP.,SUSP.,0
 80301,Rios Mando Luana,SEPTIEMBRE,10,8,10,28,15,5,36.92,5,0,5,94.92
 80306,Novo Sergio,SEPTIEMBRE,10,8,10,28,15,5,9.23,5,0,0,62.23
@@ -697,7 +697,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80335,Gomez Ivana ,SEPTIEMBRE,7,8,10,25,15,5,3.08,5,0,0,53.08
 80336,Belesi Walter ,SEPTIEMBRE,10,8,10,28,12,0,24.62,5,5,0,64.62
 80338,Ricardi Carlos ,SEPTIEMBRE,10,8,10,28,15,0,12.31,5,0,0,60.31
-80218,Varela Marcos,OCTUBRE,10,8,10,28,6,5,24,0,0,0,63
+80218,Varela Marcos,OCTUBRE,10,8,10,28,6,5,24,0,0,0,100
 80211,Montenegro Roman ,OCTUBRE,10,8,9.62,27.62,14,5,24,0,0,0,70.62
 80191,Silva Luis,OCTUBRE,8,8,8.46,24.46,8,5,13.33,5,0,0,55.79
 80190,Bon Andrea,OCTUBRE,10,8,10,28,14,5,40,5,0,5,97
@@ -741,7 +741,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80318,Benitez Celeste,OCTUBRE,9,8,8.46,25.46,8,5,8,5,0,0,51.46
 80319,Leon Ivan,OCTUBRE,10,8,10,28,6,5,24,5,0,5,73
 80321,Español Mauro,OCTUBRE,10,8,10,28,6,5,18.67,5,0,0,62.67
-80322,Cremona Ernesto,OCTUBRE,9,7,8.08,24.08,0,5,5.33,5,0,0,39.41
+80322,Cremona Ernesto,OCTUBRE,9,7,8.08,24.08,0,5,5.33,5,0,0,100
 80326,Mandraccio Florencia,OCTUBRE,9,8,9.62,26.62,8,5,16,5,0,5,65.62
 80327,Perez Nicolas ,OCTUBRE,10,8,8.46,26.46,6,5,21.33,5,0,0,63.79
 80328,Silva Nicolas ,OCTUBRE,9,7,6.15,22.15,8,5,13.33,5,0,0,53.48
@@ -770,24 +770,24 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80320,Moreno Elizabeth,OCTUBRE,7.77,7.77,7.69,23.23,0,0,26.66,0,0,0,49.89
 80333,Crispien Irina,OCTUBRE,10,8,10,28,7,10,13.33,0,0,5,63.33
 218,Varela Marcos,NOVIEMBRE,10,8,10,28,6,5,33.33,5,0,0,77.33
-80191,Silva Luis,NOVIEMBRE,9,8,6.96,23.96,5,5,13.33,5,0,0,52.29
+80191,Silva Luis,NOVIEMBRE,9,8,6.96,23.96,5,5,13.33,5,0,0,100
 80190,Bon Andrea,NOVIEMBRE,10,8,10,28,14,5,40,5,0,0,92
 80225,Garrote Juan,NOVIEMBRE,10,7,10,27,13,5,26.67,5,0,0,76.67
-80217,Noguera Vanesa,NOVIEMBRE,8,8,10,26,0,5,0,5,0,0,36
+80217,Noguera Vanesa,NOVIEMBRE,8,8,10,26,0,5,0,5,0,0,100
 80224,Alzogaray Angel,NOVIEMBRE,10,8,9.13,27.13,6,5,6.67,5,0,0,49.8
 80216,Galvan Oscar,NOVIEMBRE,9,8,7.39,24.39,13,5,26.67,5,0,0,74.06
 80248,Giovanettoni Jonathan,NOVIEMBRE,10,8,10,28,6,5,26.67,5,0,0,70.67
 80263,Torrens Luis Gabriel,NOVIEMBRE,9,8,8.7,25.7,13,5,13.33,5,0,0,62.03
-80229,Dornell Roberto,NOVIEMBRE,10,8,10,28,14,5,0,5,0,0,52
+80229,Dornell Roberto,NOVIEMBRE,10,8,10,28,14,5,0,5,0,0,100
 80235,Astorga Alejandro,NOVIEMBRE,VAC,VAC,VAC,VAC,VAC,VAC,VAC,VAC,VAC,VAC,56.94
 80226,Muñoz Juliana,NOVIEMBRE,10,8,8.7,26.7,12,5,13.33,5,0,0,62.03
 80227,García Alejandro ,NOVIEMBRE,10,8,8.26,26.26,7,5,13.33,5,0,0,56.59
 80228,Alvarez Vanesa Gisel,NOVIEMBRE,10,8,10,28,4,5,20,5,0,0,62
 80252,Cava Nicolas,NOVIEMBRE,9,8,8.7,25.7,6,5,20,5,0,0,61.7
-80272,De Palma Cristian,NOVIEMBRE,10,8,10,28,6,5,13.33,5,0,0,57.33
+80272,De Palma Cristian,NOVIEMBRE,10,8,10,28,6,5,13.33,5,0,0,100
 80273,Mercado Santiago,NOVIEMBRE,10,8,10,28,6,5,33.33,5,0,0,77.33
 80274,Torrens Nestor,NOVIEMBRE,9,8,10,27,0,5,13.33,5,0,0,50.33
-80275,Cordoba Hugo,NOVIEMBRE,10,7,10,27,14,5,0,5,0,0,51
+80275,Cordoba Hugo,NOVIEMBRE,10,7,10,27,14,5,0,5,0,0,100
 80277,Lupi Natalia,NOVIEMBRE,L/M,L/M,L/M,L/M,L/M,L/M,L/M,L/M,L/M,L/M,50
 80299,Ciriza Alejo,NOVIEMBRE,6,8,7.39,21.39,6,5,20,5,0,0,57.39
 80161,Molina Mariano Rodolfo,NOVIEMBRE,10,8,10,28,6,5,6.67,5,0,0,50.67
@@ -795,12 +795,12 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80258,Raviola Ivan,NOVIEMBRE,9,7,10,26,6,5,13.33,5,0,0,55.33
 80260,Villalba Gonzalo Andres,NOVIEMBRE,10,7,10,27,14,5,40,5,0,0,91
 80172,Perez Mario,NOVIEMBRE,10,8,10,28,14,5,40,5,0,0,92
-80271,Coubet Gabriel,NOVIEMBRE,10,8,8.7,26.7,0,5,6.67,5,0,0,43.37
+80271,Coubet Gabriel,NOVIEMBRE,10,8,8.7,26.7,0,5,6.67,5,0,0,100
 80280,Maidana Lucas ,NOVIEMBRE,8,8,10,26,14,5,20,5,0,0,70
 80285,De La Fuente Alexis,NOVIEMBRE,9,8,10,27,0,5,40,5,0,0,77
 80286,Alvarez Carla,NOVIEMBRE,L/M,L/M,L/M,L/M,L/M,L/M,L/M,L/M,L/M,L/M,50
 80297,Mallo Angel Rodolfo,NOVIEMBRE,8,8,7.39,23.39,0,5,6.67,5,0,0,40.06
-80300,Torrens Maximiliano,NOVIEMBRE,5,7,9,21,0,5,6.67,5,0,0,37.67
+80300,Torrens Maximiliano,NOVIEMBRE,5,7,9,21,0,5,6.67,5,0,0,100
 80301,Rios Mando Luana,NOVIEMBRE,10,8,10,28,14,5,26.67,5,0,0,78.67
 80306,Novo Sergio,NOVIEMBRE,10,8,10,28,15,5,26.67,5,0,0,79.67
 80307,Torres Jonathan,NOVIEMBRE,10,8,10,28,15,5,26.67,5,0,0,79.67
@@ -817,7 +817,7 @@ legajo,nombre,mes,Dedicacion Interna,Roperia,Asistencia Diaria,Orden Interno,Ins
 80327,Perez Nicolas ,NOVIEMBRE,9,8,9.57,26.57,6,5,13.33,5,0,0,55.9
 80328,Silva Nicolas ,NOVIEMBRE,8,7,6.09,21.09,0,5,0,5,0,0,31.09
 80329,Moreno Matias,NOVIEMBRE,8,8,9.13,25.13,0,5,0,5,0,0,35.13
-80330,Morales Gisela ,NOVIEMBRE,10,8,10,28,14,5,0,5,0,0,52
+80330,Morales Gisela ,NOVIEMBRE,10,8,10,28,14,5,0,5,0,0,100
 80331,De la Fuente Geronimo,NOVIEMBRE,7,8,10,25,14,5,6.67,5,0,0,55.67
 80332,Varela Lucas ,NOVIEMBRE,10,8,9.13,27.13,0,5,13.33,5,0,0,50.46
 80334,Lupi Milagros ,NOVIEMBRE,10,8,9.13,27.13,0,5,20,5,0,0,69.18
