@@ -281,4 +281,37 @@ button:disabled {
 #panelAdmin.visible {
   display: block;
 }
+/* =====================
+   ESTADOS DE PANTALLA
+===================== */
+
+/* Por defecto: solo login visible */
+#app {
+  display: none;
+}
+
+/* Cuando el usuario inicia sesión */
+#app:not(.hidden) {
+  display: block;
+}
+
+#login.hidden {
+  display: none;
+}
+#login {
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+}
+
+#login h1,
+#login h2 {
+  margin-bottom: 10px;
+}
+
+#login select,
+#login .header,
+#login #selectorMes {
+  display: none !important;
+}
 
