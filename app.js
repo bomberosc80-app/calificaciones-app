@@ -165,89 +165,61 @@ let html = ``;
 
 if (esMobile) {
 
-  for (let mes of ordenMeses) {
-    if (mesSeleccionado !== "ANUAL" && mes !== mesSeleccionado) continue;
-    const fila = calif[mes];
-    if (!fila) continue;
+function renderCalificaciones(mesSeleccionado) {
 
-    html += `
-      <div class="card-mes fade-in">
-        <div class="card-header">${mes}</div>
-        <div class="card-body">
-    `;
+  const calif = datos[usuarioActual]?.calificaciones || {};
+  const categorias = [
+    "Dedicacion Interna",
+    "Roperia",
+    "Asistencia Diaria",
+    "Orden Interno",
+    "Instruccion",
+    "Asistencia Obligatoria",
+    "Asistencia Accidental",
+    "Guardia",
+    "Puntos Negativos",
+    "Puntos Especiales",
+    "TOTAL"
+  ];
 
-    for (let c of categorias) {
-      const val = parseFloat(fila[c]) || 0;
-      totales[c] += val;
+  const ordenMeses = [
+    "ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
+    "JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"
+  ];
 
-      if (c === "TOTAL") {
-        html += `
-          <div class="fila-total">
-            <span>${c}</span>
-            <strong>${val.toFixed(2)}</strong>
-          </div>
-        `;
-      } else {
-        html += `
-          <div class="fila-dato">
-            <span>${c}</span>
-            <span>${val.toFixed(2)}</span>
-          </div>
-        `;
-      }
-    }
+  let totales = {};
+  for (let c of categorias) totales[c] = 0;
 
-    html += `
-        </div>
-      </div>
-    `;
-  }
+  const esMobile = window.innerWidth <= 768;
+  let html = "";
 
-  if (mesSeleccionado === "ANUAL") {
-    html += `
-      <div class="card-mes total-anual">
-        <div class="card-header">TOTAL ANUAL</div>
-        <div class="card-body">
-    `;
+  /* =========================
+     VISTA MOBILE (CARDS)
+  ==========================*/
+  if (esMobile) {
 
-    for (let c of categorias) {
+    for (let mes of ordenMeses) {
+      if (mesSeleccionado !== "ANUAL" && mes !== mesSeleccionado) continue;
+      const fila = calif[mes];
+      if (!fila) continue;
+
       html += `
-        <div class="fila-dato">
-          <span>${c}</span>
-          <strong>${totales[c].toFixed(2)}</strong>
-        </div>
+        <div class="card-mes fade-in">
+          <div class="card-header">${mes}</div>
+          <div class="card-body">
       `;
-    }
 
-    html += `
-        </div>
-      </div>
-    `;
-  }
+      for (let c of categorias) {
+        const val = parseFloat(fila[c]) || 0;
+        totales[c] += val;
 
-} else {
-  // 👉 TU TABLA ACTUAL TAL CUAL ESTÁ
-}
-
-  <div class="firma-digital-horizontal fade-in">
-    <hr class="linea-firma">
-    <span class="icono-firma">🖊️</span>
-    Firmado digitalmente por:
-    <br>
-    <img src="https://bomberosc80-app.github.io/calificaciones-app/firma.png" alt="Firma Jefe" class="imagen-firma" draggable="false">
-  </div>
-
-  `;
-
-  const tabla = document.getElementById("tablaCalificaciones");
-  tabla.innerHTML = html;
-  tabla.classList.remove("fade-refresh");
-  void tabla.offsetWidth;
-  tabla.classList.add("fade-refresh");
-
-  mostrarPorcentajeHT(usuarioActual);
-  actualizarVisibilidadFooter();
-
+        if (c === "TOTAL") {
+          html += `
+            <div class="fila-total">
+              <span>${c}</span>
+              <strong>${val.toFixed(2)}</strong>
+            </div>
+          `;
 }
 
 function previsualizarCSV() {
