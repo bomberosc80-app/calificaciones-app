@@ -314,4 +314,44 @@ button:disabled {
 #login #selectorMes {
   display: none !important;
 }
+/* =====================
+   CENTRADO DE TITULOS Y TEXTOS CLAVE
+===================== */
+
+/* Titulos */
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+/* Login */
+#login {
+  text-align: center;
+}
+
+/* Nombre de usuario / bienvenida */
+#nombreUsuario {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Subtitulos y textos descriptivos */
+.subtitulo,
+.footer,
+#porcentajeAsistencias {
+  text-align: center;
+}
+h1 {
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  opacity: 0.85;
+}
+
+h3 {
+  font-size: 1.05rem;
+}
 
