@@ -12,10 +12,18 @@ body {
   background: radial-gradient(circle at top, #1a1a1a, #0b0b0b);
   color: #e0e0e0;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 1rem;
+  flex-direction: column;
 }
+
+/* Footer siempre abajo */
+.footer {
+  margin-top: auto;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #777;
+}
+
 
 /* =====================
    CONTENEDOR PRINCIPAL
@@ -263,3 +271,14 @@ button:disabled {
     display: none;
   }
 }
+/* =====================
+   PANEL ADMIN (OCULTO POR DEFECTO)
+===================== */
+#panelAdmin {
+  display: none;
+}
+
+#panelAdmin.visible {
+  display: block;
+}
+
