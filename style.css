@@ -155,32 +155,56 @@ button:disabled {
   font-weight: 600;
   color: #ddd;
 }
+table {
+  border-collapse: collapse;
+  background: #111;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #1a1a1a;
+  z-index: 2;
+  font-size: .75rem;
+}
+
+td {
+  font-size: .8rem;
+}
+
+tr:hover {
+  background: rgba(255,0,0,.05);
+}
+
 
 /* =====================
    TOTAL ANUAL
 ===================== */
 .admin-total {
-  background: #1d1d1d;
-  font-weight: 600;
-  color: #e06b6b;
+  background: rgba(255,0,0,.08);
+}
+
+.admin-total td {
+  font-weight: bold;
+  color: #ff5555;
 }
 
 /* =====================
    TARJETAS MOBILE
 ===================== */
 .card-mes {
-  background: #151515;
+  background: linear-gradient(180deg, #121212, #0b0b0b);
   border-radius: 16px;
-  margin-bottom: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  padding: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.6);
 }
 
 .card-header {
-  padding: 12px;
   text-align: center;
-  font-weight: 600;
-  color: #c73737;
-  border-bottom: 1px solid #2a2a2a;
+  font-weight: 700;
+  color: #ff3b3b;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
 }
 
 .card-body {
@@ -190,18 +214,34 @@ button:disabled {
 .fila-dato {
   display: flex;
   justify-content: space-between;
-  padding: 6px 0;
-  font-size: 0.85rem;
-  color: #ccc;
+  font-size: .9rem;
+  opacity: .85;
+}
+
+.fila-dato.negativo {
+  color: #ff6b6b;
+  font-weight: 600;
 }
 
 .fila-total {
-  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
   padding-top: 8px;
-  border-top: 1px solid #2a2a2a;
-  font-size: 1rem;
+  border-top: 1px solid rgba(255,255,255,.15);
+  font-size: 1.1rem;
+  color: #ff3b3b;
+}
+.total-anual .fila-dato {
   font-weight: 600;
-  color: #e06b6b;
+}
+
+.total-anual .fila-dato span:first-child {
+  opacity: .8;
+}
+
+.total-anual .fila-dato strong {
+  color: #ff5555;
 }
 
 /* =====================
