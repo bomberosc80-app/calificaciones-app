@@ -44,6 +44,7 @@ body {
 .logo-img {
   max-width: 110px;
   margin-bottom: 10px;
+  align-items: center;   /* CENTRA horizontal */
   filter: drop-shadow(0 0 6px rgba(160,0,0,0.35));
 }
 
