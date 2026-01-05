@@ -161,7 +161,7 @@ function renderCalificaciones(mesSeleccionado) {
     "Dedicacion Interna",
     "Roperia",
     "Asistencia Diaria",
-    "Orden Interno",
+    "Total Orden Interno",
     "Instruccion",
     "Asistencia Obligatoria",
     "Asistencia Accidental",
