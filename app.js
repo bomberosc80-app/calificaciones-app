@@ -202,21 +202,23 @@ function renderCalificaciones(mesSeleccionado) {
         const val = parseFloat(fila[c]) || 0;
         totales[c] += val;
 
-        if (c === "TOTAL") {
-          html += `
-            <div class="fila-total">
-              <span>${c}</span>
-              <strong>${val.toFixed(2)}</strong>
-            </div>
-          `;
-        } else {
-          html += `
-            <div class="fila-dato">
-              <span>${c}</span>
-              <span>${val.toFixed(2)}</span>
-            </div>
-          `;
-        }
+      if (c === "TOTAL") {
+  html += `
+    <div class="fila-total">
+      <span>${c}</span>
+      <strong>${val.toFixed(2)}</strong>
+    </div>
+  `;
+} else {
+  const claseExtra = c === "Puntos Negativos" && val < 0 ? "negativo" : "";
+  html += `
+    <div class="fila-dato ${claseExtra}">
+      <span>${c}</span>
+      <span>${val.toFixed(2)}</span>
+    </div>
+  `;
+}
+
       }
 
       html += `
