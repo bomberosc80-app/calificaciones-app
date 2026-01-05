@@ -60,11 +60,21 @@ body {
 
 }
 
-h1, h2 {
+h1,  {
   margin: 0;
   color: #ff3b3b;
   font-weight: 600;
 }
+
+ h2, {
+  background: linear-gradient(135deg, #ff1f1f, #b30000);
+  border: none;
+  border-radius: 14px;
+  padding: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+ }
 
 .subtitulo {
   text-align: center;
